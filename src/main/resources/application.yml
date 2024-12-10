@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: notification-service
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: kunal.gaikwad@techbulls.com  # Your email address
+    password: okxu cdlt uqzc zyqu         # Your App Password
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true                      # Enable SMTP authentication
+          starttls:
+            enable: true                  # Use STARTTLS for secure connection
+          ssl:
+            trust: smtp.gmail.com         # Trust Gmail's SMTP server
